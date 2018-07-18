@@ -2,17 +2,36 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Dosis:200');
+    </style>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <title>Document</title>
 </head>
 <body>
-    <section class="mainWrapper">
-        <header>
+    
+        <header class="mainWrapper">
             <nav>
-
+                <a>About Us</a>
+                <a>FAQ</a>
+                <a>Contact Us</a>
+                <a>Book A Room</a>
             </nav>
-            <h1 id="sweetHead">SWEET DREAMS HOSTEL</h1>
+                <h1 id="sweetHead">SWEET<br>DREAMS<br>HOSTEL</h1>
+            <div class="headDiv">
+                <form>
+                    <label class="formItms left">Vistors</label>
+                    <input class="formItms vInp" type="text" value="2"><br>
+                    <label class="formItms left">Check-in</label>
+                    <input class="formItms dInp" type="text" value="day/month/year"><br>
+                    <label class="formItms left">Check-out</label>
+                    <input class="formItms dInp" type="text" value="day/month/year"><br>
+                    <button id="btn1" type="submit" >Continue</button>
+                </form>
+            </div>
         </header>
-    </section>  
+
+      
 </body>
 </html>
