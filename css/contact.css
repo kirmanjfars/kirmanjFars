@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Fonts*/
+h1, h2, h3, p{
+    font-family: 'Dosis', sans-serif;
+}
+
+/*Column structure*/
+
+col{
+    width: 34%;
+}
+
+coll{
+    width: 66%;
+}
+
+colll{
+    width: 100%;
+}
+
+/* End of Column stracture */
+
+
+/* Start of navbar */
+.navWrapper{
+    width: 60%;
+    left: 20%;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    display: flex;
+    height: 10%;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+}
+
+nav{
+    width: 60%;
+    margin-left:40%;
+    margin-top: 3%;
+
+}
+
+nav > a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1em;
+    padding: 1% 4%;
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+
+
+nav >a:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+    color: white;
+    padding: 1% 4%;
+    border-radius: 3px;
+    border: 1px solid rgba(163, 159, 159, 0.255); 
+}
+
+
+#sweetHead{
+    font-family: 'Dosis', sans-serif;
+    color: #00000051;
+    font-size: 1em;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    width: 10%;
+}
+
+/* End of navbar */
+
+/* Start of Header */
+
+.headImg{
+    width: 60%;
+    margin: 4% auto 0% auto;
+    height:520px;
+    background-image: url(../Images/francesca-saraco-65449-unsplash.jpg);
+    background-size: 100% 100%;
+    padding-top: 1%;
+}
+
+header h1{
+    font-family: 'Dosis', sans-serif;
+    color: #000000ad;
+    background: rgba(254, 245, 245, 0.638);
+    position: absolute;
+    font-size: 3em;
+    word-spacing: 1em;
+    left: 32%;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    top: 20%;
+    padding: 3% 3%; 
+
+}
+
+
+/* End of Header */
+
