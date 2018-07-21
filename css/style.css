@@ -433,7 +433,7 @@ footer{
 
 #sweetHead{
     font-family: 'Dosis', sans-serif;
-    color: #00000051;
+    color: #000000bd;
     font-size: 1em;
     margin-left: 2%;
     margin-bottom: 1%;
@@ -1313,6 +1313,10 @@ footer{
         top: 0%;
         font-size: 2em;
     }
+
+    #sweetHead{
+        font-size: 1.5em;
+    }
     
     .contactHead h1{
         font-family: 'Dosis', sans-serif;
@@ -1528,6 +1532,11 @@ footer{
         font-size: 2em;
         padding-top: 15%;
     }
+    #sweetHead{
+        font-size: 1.5em;
+    }
+   
+
 
     .suitText p, .junText p{
         font-size: 0.6em;
