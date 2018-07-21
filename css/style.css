@@ -36,7 +36,7 @@ colll{
 .headWrapper{
     width: 60%;
     margin: 0% auto;
-    background-color: #F7F6F6;
+    background-color: #F9F8F7;
     height: 500px;
 }
 
@@ -156,7 +156,7 @@ nav >a:hover{
 /*End of header Styling*/
 
 .mainWrapper{
-    background-color: rgba(233, 232, 232, 0.296);
+    background-color: #F9F8F7;
     margin: 0% auto;
     text-align: center;
     width: 60%;
@@ -241,7 +241,7 @@ nav >a:hover{
 }
 
 .roomPar .roomBtn{
-    background-color: rgba(233, 232, 232, 0.296);
+    background-color: #F9F8F7;
     border: 2px solid rgba(0, 0, 0, 0.94);
     padding: 3% 15%;
     border-radius: 5px;
@@ -444,7 +444,7 @@ footer{
 
 /* Start of Header */
 .headImg{
-    width: 60%;
+    width: 59%;
     margin: 4% auto 0% auto;
     height:520px;
     background-image: url(../Images/francesca-saraco-65449-unsplash.jpg);
@@ -459,10 +459,13 @@ footer{
     position: absolute;
     font-size: 3em;
     word-spacing: 1em;
-    left: 32%;
+    width: 45%;
+    text-align: center;
+    left: 28%;
     font-weight: lighter;
     letter-spacing: 10px;
     top: 20%;
+    margin-left: 0%;
     padding: 3% 3%; 
 }
 
@@ -607,7 +610,7 @@ footer{
 .mainWrapperRoom{
     width: 60%;
     margin: 0% auto;
-    background-color: rgba(233, 232, 232, 0.296);
+    background-color: #F9F8F7;
     margin-top: 5%;
 }
 
@@ -618,7 +621,7 @@ footer{
     font-size: 3em;
     font-weight: 100;
     padding: 5%;
-    background-color: rgba(233, 232, 232, 0.296);
+    background-color: #F9F8F7;
     word-spacing: 10px;
 }
 /*End of main wrapper*/
@@ -677,7 +680,7 @@ footer{
 .outJun{
     display: flex;
     flex-direction: row;
-    background-color: rgba(233, 232, 232, 0.296);
+    background-color: #F9F8F7;
 }
 
 .junior img{
@@ -747,9 +750,7 @@ footer{
     object-fit: cover;
 }
 
-.oneRoom .imgOrl{
-    height: 160px;
-}
+
 
 .oneRoom  h4{
     font-family: 'Dosis', sans-serif;
@@ -949,7 +950,7 @@ footer{
 
 /* Home Page For Mobile Mode*/
 
-@media only screen and (min-width : 320px) and (max-width : 768px) {
+@media only screen and (min-width : 320px) and (max-width : 767px) {
     
     nav a{
         display: none;
@@ -1233,7 +1234,7 @@ footer{
 }
 
 
-@media only screen and (min-width : 440px) and (max-width : 768px){
+@media only screen and (min-width : 440px) and (max-width : 767px){
 
     
     
@@ -1296,3 +1297,385 @@ footer{
 } 
 
 /* End Home Page For Mobile Mode*/
+
+/* Contact Page For Tablet Mode*/
+
+@media only screen and (min-width : 768px) and (max-width : 1124px)  {
+
+    nav a{
+        display: none;
+    }
+
+    nav a.menu-icon{
+        display: inherit;
+        position: absolute;
+        right: 5%;
+        top: 0%;
+        font-size: 2em;
+    }
+    
+    .contactHead h1{
+        font-family: 'Dosis', sans-serif;
+        color: #000000ad;
+        background: rgba(254, 245, 245, 0.638);
+        position: absolute;
+        font-size: 3em;
+        word-spacing: 1em;
+        width: 45%;
+        text-align: center;
+        left: 28%;
+        font-weight: lighter;
+        letter-spacing: 10px;
+        top: 20%;
+        margin-left: 0%;
+        padding: 3% 3%; 
+    }
+
+    .mapSection{
+        flex-direction: column;
+    }
+    
+    .mapSection iframe{
+        width: 90%;
+        margin: 0 auto;
+        height: 20em;
+    }
+
+
+    .ourLocations{
+        width: 90%;
+        margin: 0% auto;
+    }
+    
+    .ourLocations h2{
+        font-size: 1.5em;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        margin-left: 10%;
+        margin-top: 30px;
+        text-align: center;  
+
+    }
+
+
+    
+    .ourLocations i{ 
+        text-align: right;
+        margin-left: 10%;
+        padding: 5% 0%;
+        margin-right: 0%;
+        font-size: 2em;
+        color: #564D42;
+        transform: rotateY(180deg);
+        width: 20%;
+        margin-top: 4%;
+       
+    }
+    
+    
+    .loct p{
+        margin-top: 0%;
+        font-size: 1em;
+        font-family: sans-serif;
+        font-weight: 600;
+        text-align: left;
+    }
+
+
+    .touchSection{
+       flex-direction: column-reverse;
+       width: 100%;
+       background-color: white;
+       padding: 0% auto;
+    }
+    
+    .touchSection form{
+        margin: 0% auto;
+        padding-top: 0%;
+    }
+    .touchSection .imgDown{
+        margin: 0% auto;
+    }
+
+    .touchSection .imgDown h5{
+        display:none;
+    }
+    
+
+}
+
+
+
+
+
+@media only screen and (min-width : 768px) and (max-width : 966px){
+    
+    .contactHead h1{
+        font-size: 2.5em;
+        word-spacing: 0;
+    }
+
+}
+
+
+/*End Contact Page For Tablet Mode*/
+
+
+/* Contact Page For Mobile Mode*/
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+
+    .contactHead h1{
+        font-size: 2em;
+        width: 60%;
+        text-align: center;
+        left: 20%;
+        top: 40%;
+        margin-left: 0%;
+        letter-spacing: 0ch;
+    
+    }
+
+    .mainWrapper{
+        margin-left: 1%;
+        margin: 0% auto;
+    }
+
+    .headImg{
+        background-size: cover;
+    }
+
+
+    
+    .mapSection{
+        flex-direction: column;
+    }
+    
+    .mapSection iframe{
+        width: 95%;
+        margin: 0 auto;
+        height: 20em;
+    }
+
+
+    .ourLocations{
+        width: 90%;
+        margin: 0% auto;
+    }
+    
+    .ourLocations h2{
+        font-size: 1.5em;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        margin-left: 10%;
+        margin-top: 30px;
+        text-align: center;  
+
+    }
+
+
+    
+    .ourLocations i{ 
+        font-size: 1.2em;  
+    }
+    
+    
+    .loct p{
+        font-size: 0.7em;
+    }
+
+    
+    .touchSection{
+        flex-direction: column-reverse;
+        width: 100%;
+        
+     }
+     
+     .touchSection form label{
+         font-size: 1.3em;
+     }
+     .touchSection form{
+         margin: 0% auto;
+         width: 100%;
+         padding-top: 0%;
+     }
+     .touchSection .imgDown{
+         margin: 0% auto;
+         width: 100%;
+     }
+ 
+     .touchSection .imgDown h5{
+         display:none;
+     }
+
+     .touchSection form button{
+         margin-bottom: 10px;
+     }
+
+
+}
+/* End Contact Page For Mobile Mode*/
+
+
+
+
+
+/* Contact Page For Tablet Mode*/
+
+@media only screen and (min-width : 768px) and (max-width : 1124px)  {
+
+    .featuredRoom h1{
+        font-size: 2em;
+        padding-top: 15%;
+    }
+
+    .suitText p, .junText p{
+        font-size: 0.6em;
+    }
+
+    .junText{
+        height: 50%;
+    }
+
+    .suitText h2{
+        font-size: 1.1em;
+    }
+
+    .junText h2{
+        font-size: 1.1em;
+    }
+
+   
+    
+    .suitText button, .junText button{
+       font-size: 0.8em;
+       padding: 1%  2%;
+       margin-top: 20%;
+    }
+
+    .standard button{
+        font-size: 0.8em;
+        padding: 1%  2%;
+        margin-top: 5%;
+    }
+    
+}
+
+
+
+
+
+
+/*End Room Page For Tablet Mode*/
+
+
+/* Room Page For Mobile Mode*/
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+
+    .featuredRoom h1, .standard h1{
+        font-size: 1.5em;
+        width: 100%;
+        text-align: center;
+        margin-top: 70px;
+        margin-left: 0%;
+        letter-spacing: 0ch;
+    
+    }
+
+    
+
+    .mainWrapperRoom{
+        margin-left: 1%;
+        margin: 0% auto;
+        }
+     
+
+    .suit{
+        flex-direction: column;
+        background-size: 100% 100%;
+    }
+
+    .suit img{
+        width: 100%;
+    }
+
+    .suitText{
+        width: 100%;
+    }
+
+    .suitText h2, .junText h2{
+        font-size: 1.3em;
+    }
+
+    .suitText p{
+        font-size: 1em;
+    }
+
+    .junText p{
+        font-size: 0.8em;
+    }
+
+    .suitText button, .junText button{
+        font-size: 0.8em;
+        padding: 2%;
+    }
+
+    .standard button{
+        width: 70%;
+        font-size: 0.8em;
+        padding: 1%;
+        margin-left: 15%;
+
+    }
+    
+    .junior{
+        padding:0%;
+        background-color:rgba(253, 253, 253, 0.953);
+
+    }
+    .outJun{
+        flex-direction: column-reverse;
+    }
+
+    .standard{
+        margin-top: 0%;
+        background-color:rgba(253, 253, 253, 0.953);
+    }
+
+    .outJun img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .junText{
+        height: 350px;
+        width: 90%;
+        margin: 0% auto;
+        margin-bottom: 20%;
+    }
+    .threeRooms{
+       
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(233, 232, 232, 0.296);
+        }
+    .oneRoom {
+        width: 80%;
+        margin: 0% auto;
+        margin-bottom: 10%;
+
+    }
+
+    .oneRoom h4{
+        font-size: 0.8em;
+    }
+
+    .oneRoom p{
+        font-size: 0.7em;
+    }
+    
+
+
+}
+/* End Room Page For Mobile Mode*/
