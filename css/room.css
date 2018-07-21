@@ -1,0 +1,309 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Fonts*/
+h1, h2, h3{
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    
+
+}
+
+
+
+/* Start of navbar */
+.navWrapper{
+    width: 60%;
+    left: 20%;
+    background-color: white;
+    height: 500px;
+    display: flex;
+    height: 10%;
+    flex-direction: row;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+
+nav{
+    width: 60%;
+    margin-left:30%;
+    margin-top: 3%;
+}
+
+nav > a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1em;
+    padding: 1% 5%;
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+
+
+nav >a:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+    color: white;
+    padding: 1% 5%;
+    border-radius: 3px;
+    border: 1px solid rgba(163, 159, 159, 0.255); 
+}
+
+
+#sweetHead{
+    font-family: 'Dosis', sans-serif;
+    color: #00000051;
+    font-size: 1em;
+    margin-left: 2%;
+    background-color: white;
+    margin-bottom: 1%;
+    width: 10%;
+}
+
+/* End of navbar */
+
+
+/*Start of main wrapper*/
+.mainWrapperRoom{
+    width: 60%;
+    margin: 0% auto;
+    background-color: rgba(233, 232, 232, 0.296);
+    margin-top: 5%;
+ 
+}
+
+.featuredRoom h1, .standard h1{
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.474);
+    text-align: center;
+    font-size: 3em;
+    font-weight: 100;
+    padding: 5%;
+    background-color: rgba(233, 232, 232, 0.296);
+    word-spacing: 10px;
+}
+/*End of main wrapper*/
+
+/*The Suit Section*/
+
+.suit{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    background-size: 100% 80%;
+}
+
+.suit img{
+    width: 50%;
+    height:100%;
+}
+
+.suitText {
+    width: 35%;
+    margin: 0 auto;
+   
+}
+
+.suitText h2{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin-top: 15%;
+    word-spacing: 10px;
+    color: rgba(0, 0, 0, 0.761);
+    font-weight: 100;
+    margin-bottom:10% ;
+}
+
+.suitText p{
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+}
+
+
+.roomBtn{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    border: 2px solid #564D42;
+    background-color: white;
+    color: #564D42;
+    margin: 30% ;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5%;
+    margin-left: 0%;
+}
+/*End the Suit Section*/
+
+/*The junnior Section*/
+
+.outJun{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(233, 232, 232, 0.296);
+}
+
+.junior img{
+    width: 50%;
+    height:100%;
+}
+
+.junText {
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    padding: 0% 10%;
+    background-color: white;
+    margin: 10% 0;
+}
+
+.junText h2{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin-top: 15%;
+    word-spacing: 10px;
+    color: rgba(0, 0, 0, 0.761);
+    font-weight: 100;
+    margin-bottom: 20%;
+}
+
+.junText p{
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+}
+
+
+.roomBtn{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    border: 2px solid #564D42;
+    background-color: white;
+    color: #564D42;
+    margin: 30% ;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5%;
+    margin-left: 0%;
+}
+
+/*End junnior Section*/
+
+.threeRooms{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.oneRoom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0% 2%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.oneRoom img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.oneRoom .imgOrl{
+    height: 160px;
+}
+
+.oneRoom  h4{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 1% auto;
+}
+
+.oneRoom  p{
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.83);
+    margin: 1% auto;
+    padding-left: 2.5%;
+}
+
+.standard button{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    border: 2px solid #564D42;
+    background-color: white;
+    color: #564D42;
+    border-radius: 5px;
+    margin: 10% 0% 7% 35% ;
+    width: 30%;
+    padding: 2% 0%;
+}
+
+
+
+/*Footer*/
+
+footer{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #564D42; 
+    display: flex;
+    flex-direction: row;
+}
+
+.signForm{
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+   margin-left: 3%;
+   padding-bottom: 1%;
+   padding-top: 3%;
+}
+
+.signForm label{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5%;
+    font-family: 'Dosis', sans-serif;
+    word-spacing: 3px;
+    color: rgba(255, 255, 255, 0.289);
+    margin-bottom: 5%;
+}
+
+.signForm input{
+   margin-bottom: 10px;
+   padding: 2% 5%;
+   border-radius: 5px;
+   border: none;
+   margin-bottom: 10%;
+}
+
+.signForm button{
+    padding: 3% 5%;
+    font-family: 'Dosis', sans-serif;
+    border: 2px solid white;
+    background-color: #564D42;
+    color: white;
+    border-radius: 5px;
+}
+
+.socialMedia{
+  color: white;
+  margin-left: 30%;
+  background-color: #564D42;
+  margin-top: 12%;
+  width: 60%;
+}
+
+.socialMedia i{
+   font-size: 2.3em;
+   padding:0% 5%;
+}

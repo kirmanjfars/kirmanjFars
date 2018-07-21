@@ -10,22 +10,6 @@ h1, h2, h3, p{
     font-family: 'Dosis', sans-serif;
 }
 
-/*Column structure*/
-
-col{
-    width: 34%;
-}
-
-coll{
-    width: 66%;
-}
-
-colll{
-    width: 100%;
-}
-
-/* End of Column stracture */
-
 
 /* Start of navbar */
 .navWrapper{
@@ -41,14 +25,14 @@ colll{
     top: 0;
 }
 
-nav{
+.navWrapper nav{
     width: 60%;
     margin-left:30%;
     margin-top: 3%;
   
 }
 
-nav > a{
+.navWrapper nav > a{
     font-family: 'Dosis', sans-serif;
     font-size: 1em;
     padding: 1% 5%;
@@ -58,7 +42,7 @@ nav > a{
 }
 
 
-nav >a:hover{
+.navWrapper nav >a:hover{
     background-color: rgba(0, 0, 0, 0.33);
     color: white;
     padding: 1% 5%;
@@ -89,7 +73,7 @@ nav >a:hover{
     padding-top: 1%;
 }
 
-header h1{
+.contactHead h1{
     font-family: 'Dosis', sans-serif;
     color: #000000ad;
     background: rgba(254, 245, 245, 0.638);
@@ -101,7 +85,6 @@ header h1{
     letter-spacing: 10px;
     top: 20%;
     padding: 3% 3%; 
-
 }
 
 
@@ -179,8 +162,7 @@ header h1{
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: white;
-    margin-bottom: 0%;
+  
 }
 
 .touchSection form{
@@ -188,6 +170,8 @@ header h1{
     display: flex;
     padding: 5% 7% 0% 7%;
     flex-direction: column;
+    margin-bottom:3%;
+    background-color: white;
 }
 
 
@@ -222,6 +206,7 @@ header h1{
     margin-bottom: 10%;
     resize: none;
     height: 13em;
+    font-size: 1.2em;
  }
 
 .touchSection button{
@@ -232,11 +217,28 @@ header h1{
     color: white;
     border-radius: 5px;
 }
-
-.touchSection img{
+.imgDown{
     width: 50%;
     height: 100%;
+    margin: 0%;
+    background-color: white;
+    padding: 0%;
 }
+
+.imgDown h5{
+  visibility: hidden;
+}
+
+
+
+.touchSection img{
+   width: 100%;
+   height: 100%;
+  
+}
+
+/*End Touch Section */
+
 
 
 /*Footer*/
@@ -254,7 +256,7 @@ footer{
    flex-direction: column;
    width: 30%;
    margin-left: 3%;
-   padding-bottom: 5%;
+   padding-bottom: 1%;
    padding-top: 3%;
 }
 
@@ -286,14 +288,14 @@ footer{
 }
 
 .socialMedia{
-  color: white;
-  margin-left: 30%;
-  background-color: #564D42;
-  margin-top: 12%;
-  width: 60%;
-}
-
-.socialMedia i{
-   font-size: 2.3em;
-   padding:0% 5%;
-}
+    color: white;
+    margin-left: 30%;
+    background-color: #564D42;
+    margin-top: 10%;
+    width: 60%;
+  }
+  
+  .socialMedia i{
+     font-size: 2.3em;
+     padding:0% 5%;
+  }
