@@ -993,17 +993,7 @@ footer{
     }
     
 
-    #sweetHead1{
-        font-family: 'Dosis', sans-serif;
-        font-size: 3em;
-        font-weight: 1;
-        color: #000000b3;
-        margin-top: 50px;
-        margin-left: 20px;
-        line-height: 1em;
-        position: absolute;
-    }
-
+   
 
     
     .headForm{
@@ -1616,7 +1606,6 @@ footer{
     
     }
     .navWrapper{
-        width: 100%;
       
         background-color: white;
         height: 400px;
