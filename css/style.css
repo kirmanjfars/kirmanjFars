@@ -414,6 +414,8 @@ footer{
     margin-top: 3%;  
 }
 
+
+
 .navWrapper nav > a{
     font-family: 'Dosis', sans-serif;
     font-size: 1em;
@@ -423,6 +425,7 @@ footer{
     color: black;
 }
 
+
 .navWrapper nav >a:hover{
     background-color: rgba(0, 0, 0, 0.33);
     color: white;
@@ -430,6 +433,19 @@ footer{
     border-radius: 3px;
     border: 1px solid rgba(163, 159, 159, 0.255); 
 }
+
+
+.cnt{
+
+    background-color: rgba(0, 0, 0, 0.33);
+    color: white;
+    padding: 1% 5%;
+    border-radius: 3px;
+    border: 1px solid rgba(163, 159, 159, 0.255); 
+
+}
+
+
 
 #sweetHead{
     font-family: 'Dosis', sans-serif;
@@ -612,6 +628,14 @@ footer{
     margin: 0% auto;
     background-color: #F9F8F7;
     margin-top: 5%;
+}
+
+.rom{
+    background-color: rgba(0, 0, 0, 0.33);
+    color: white;
+    padding: 1% 5%;
+    border-radius: 3px;
+    border: 1px solid rgba(163, 159, 159, 0.255); 
 }
 
 .featuredRoom h1, .standard h1{
@@ -1591,12 +1615,25 @@ footer{
         letter-spacing: 0ch;
     
     }
+    .navWrapper{
+        width: 100%;
+      
+        background-color: white;
+        height: 400px;
+        display: inline;
+        height: 10%;
+        left: 0%;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+    }
 
     
 
     .mainWrapperRoom{
         margin-left: 1%;
         margin: 0% auto;
+        width: 100%;
         }
      
 
